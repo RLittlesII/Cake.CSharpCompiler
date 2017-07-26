@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{63089C86-8092-48E7-8E22-93494EF22126}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E41F166B-D8A4-43D0-A81B-E8A3ABE4B964}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cake.CSharpCompiler", "Cake.CSharpCompiler\Cake.CSharpCompiler.csproj", "{56384497-FA7D-49EF-9E88-6596078E3E97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cake.CSharpCompiler.Tests", "Cake.CSharpCompiler.Tests\Cake.CSharpCompiler.Tests.csproj", "{53AED78D-18B7-4DA3-BEB4-50F1184E3E74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{BB62BAE6-2516-491C-86E7-71BA8F1323FD}"
+	ProjectSection(SolutionItems) = preProject
+		..\build.cake = ..\build.cake
+		..\build.ps1 = ..\build.ps1
+		..\build.sh = ..\build.sh
+		..\GitVersion.yml = ..\GitVersion.yml
+		..\README.md = ..\README.md
+		..\recipe.cake = ..\recipe.cake
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56384497-FA7D-49EF-9E88-6596078E3E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56384497-FA7D-49EF-9E88-6596078E3E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56384497-FA7D-49EF-9E88-6596078E3E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56384497-FA7D-49EF-9E88-6596078E3E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53AED78D-18B7-4DA3-BEB4-50F1184E3E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AED78D-18B7-4DA3-BEB4-50F1184E3E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AED78D-18B7-4DA3-BEB4-50F1184E3E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AED78D-18B7-4DA3-BEB4-50F1184E3E74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56384497-FA7D-49EF-9E88-6596078E3E97} = {63089C86-8092-48E7-8E22-93494EF22126}
+		{53AED78D-18B7-4DA3-BEB4-50F1184E3E74} = {E41F166B-D8A4-43D0-A81B-E8A3ABE4B964}
+	EndGlobalSection
+EndGlobal
