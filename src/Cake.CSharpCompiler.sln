@@ -20,6 +20,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{BB
 		..\recipe.cake = ..\recipe.cake
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{E774DCC0-19EA-4F4F-9D82-B0F0C3E6D876}"
+	ProjectSection(SolutionItems) = preProject
+		..\nuspec\nuget\Cake.CSharpCompiler.nuspec = ..\nuspec\nuget\Cake.CSharpCompiler.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
